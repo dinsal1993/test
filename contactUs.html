@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="validation.js"></script>
+</head>
+<body>
+    <div class="contact-us-title">
+        <h1>Contact Us</h1>
+    </div>
+    <div class="support-container">
+        <div class="support-form">
+            <form class="support-form">
+                <input type="text" name="name" id="name" placeholder="name*" ><br>
+                <input type="text" name="email" id="email" placeholder="email*" ><br>
+                <select name="optioin" id="option-select" >
+                    <option value="">--Contact us concerning*--</option>
+                    <option value="it">IT</option>
+                    <option value="sales">Sales</option>
+                    <option value="support">SUPPORT</option>
+                </select><br>
+                <input type="text" name="subject" id="subject" placeholder="Subject"><br>
+                <button class="submit-button" onclick="validateContactUs()">Submit</button>
+            </form>
+        </div>
+        <div class="support-info">
+            <div class="support247">
+                <img class="support-icon" src="images/support-icon.png" alt="support-icon-img">
+                <div class="support-text">
+                    <p>NEED 24/7 SUPPORT</p>
+                    <a href="mailto:mysupport@gmail.com"><button class="support-button">Contact Support</button></a>
+                </div>
+            </div>
+            <div class="static-info">
+                <div class="sales-container">
+                    <img class="static-info-icon" src="images/phone-icon.png" alt="phone-icon">
+                    <p class="static-info-text">CALL SALES NOW <br> +1-512-234-245</p>
+                </div>
+                <div class="hours-container">
+                    <img class="static-info-icon" src="/images/clock-icon.png" alt="clock-icon">
+                    <div class="hours-inside">
+                        <div class="hours-inside-1">
+                            <h3>SALES HOURS</h3>
+                            <p>7am-7pm CST</p>
+                        </div>
+                        <div class="hours-inside-2">
+                            <h3>SALES CONTACT INFO</h3>
+                            <p>mysales@gmail.com<br> +1-512-234-245</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="email-container">
+                    <img class="static-info-icon" src="/images/mail-icon.png" alt="mail-icon">
+                    <div class="mail-inside">
+                        <div class="hours-inside-1">
+                            <h3>MAILING ADDRESS</h3>
+                            <p>myCompanyName</p>
+                            <p>myAddress</p>
+                            <p>United States</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
